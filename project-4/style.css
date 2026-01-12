@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+/* ------------------- GAME CONTAINER ------------------- */
+
+.container{
+    width: 420px;
+    padding: 35px 30px;
+    background: #ffffff;
+    border-radius: 18px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.3);
+    animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Instructions */
+.container p{
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Title */
+.container h1{
+    font-size: 32px;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+/* Input */
+#guessInput{
+    width: 100%;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 0 15px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+#guessInput:focus{
+    outline: none;
+    border-color: #6c63ff;
+    box-shadow: 0 0 0 3px rgba(108,99,255,0.2);
+}
+
+/* Buttons */
+button{
+    width: 100%;
+    height: 48px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Submit Button */
+#submitGuess{
+    background: linear-gradient(135deg, #6c63ff, #4a42e0);
+    color: #fff;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+#submitGuess:active{
+    transition: all .3s ease;
+    scale: .91;
+}
+
+/* Feedback */
+#feedback{
+    position: absolute;
+    backdrop-filter: blur(5px);
+    font-size: 40px;
+    font-weight:bold;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    translate: -50% -50%;
+}
+
+/* Attempts */
+#attemptsLeft{
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+#attempts_left{
+    font-weight: 600;
+    color: #e63946;
+}
+
+/* Restart Button */
+#restartGame{
+    background: #fb1a05;
+    color: #fff;
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    top: 70%;
+    left: 50%;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    translate: -50% -50%;
+}
+#restartGame:active{
+    scale: .91;
+}
+::-webkit-inner-spin-button{
+    display: none;
+}
