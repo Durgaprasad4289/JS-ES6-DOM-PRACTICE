@@ -2,10 +2,10 @@
 
 ## 🔗 Project Links
 
-🔗 [Project 1 – Color Box](https://username.github.io/repo-name/project-1/)
-🔗 [Project 2 – BMI Calculator](https://username.github.io/repo-name/project-2/)
-🔗 [Project 3 – Digital Clock](https://username.github.io/repo-name/project-3/)
-🔗 [Project 4 – Guess the Number](https://username.github.io/repo-name/project-4/)
+🔗 [Project 1 – Color Box](https://durgaprasad4289.github.io/JS-ES6-DOM-PRACTICE/project-1/)
+🔗 [Project 2 – BMI Calculator](https://durgaprasad4289.github.io/JS-ES6-DOM-PRACTICE/project-2/)
+🔗 [Project 3 – Digital Clock](https://durgaprasad4289.github.io/JS-ES6-DOM-PRACTICE/project-3/)
+🔗 [Project 4 – Guess the Number](https://durgaprasad4289.github.io/JS-ES6-DOM-PRACTICE/project-4/)
 
 
 ---
