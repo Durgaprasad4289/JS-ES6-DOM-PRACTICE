@@ -1,5 +1,5 @@
-let weight = document.getElementById("weight");
-let height = document.getElementById("height");
+let weight = document.getElementById("weight").value;
+let height = document.getElementById("height").value;
 let result = document.getElementById("result");
 
 document.getElementById("calculateBtn").addEventListener("click", () => {
@@ -9,7 +9,7 @@ document.getElementById("calculateBtn").addEventListener("click", () => {
         return;
     }
 
-    let bmi = weight.value / Math.pow(height.value / 100, 2);
+    let bmi = weight/height*height ;
     result.innerText = bmi.toFixed(2);
 });
 
