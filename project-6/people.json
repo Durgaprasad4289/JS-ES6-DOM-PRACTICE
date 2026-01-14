@@ -1,0 +1,29 @@
+[
+    {
+    "name": "pavan",
+    "age": 19,
+    "isEmployed": "false",
+    "hobbies": ["cricket", "coding", "reading"]
+
+    },
+    {
+    "name": "vijay",
+    "age": 16,
+    "isEmployed": "false",
+    "hobbies": ["football", "gaming", "traveling"]
+
+    },
+    {
+    "name": "varun",
+    "age": 50,
+    "isEmployed": "false",
+    "hobbies": ["swimming", "music", "hiking"]
+
+    },
+    {   
+    "name": "sudheer",
+    "age": 4,
+    "isEmployed": "false",
+    "hobbies": ["photography", "drawing", "dancing"]
+    }
+]
