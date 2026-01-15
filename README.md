@@ -22,7 +22,7 @@
 
 ----
 
-🔗[Project 6 - Fetching Data from Local File](https://username.github.io/repo-name/project-6/)
+🔗[Project 6 - Fetching Data from Local File](https://durgaprasad4289.github.io/JS-ES6-DOM-PRACTICE//project-6/)
 
 ----
 
