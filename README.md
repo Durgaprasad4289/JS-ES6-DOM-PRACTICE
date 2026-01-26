@@ -389,9 +389,11 @@ btn.addEventListener("click", () => {
 ---
 
 ## 📁 Project Structure
+```text
 Js Es6
   ├──project-(number)/
     ├── index.html
     ├── style.css
     └── script.js
   ├── README.md
+```
